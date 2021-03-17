@@ -1,3 +1,4 @@
-output "tfc_example_table_arn" {
-  value = aws_dynamodb_table.tfc_example_table.arn
+output "ip" {
+  value = google_compute_address.vm_static_ip.address
 }
+
